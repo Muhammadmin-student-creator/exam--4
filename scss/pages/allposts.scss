@@ -1,0 +1,171 @@
+.head {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  .head-l {
+    h3 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      /* identical to box height, or 125% */
+
+      letter-spacing: 3px;
+      text-transform: uppercase;
+
+      /* Black */
+
+      color: #232536;
+    }
+    h1 {
+      max-width: 624px;
+      padding: 10px 0 15px;
+      font-family: "Sen";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 48px;
+      /* or 133% */
+
+      letter-spacing: -2px;
+
+      /* Black */
+
+      color: #232536;
+    }
+    h4 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      /* or 143% */
+
+      /* Dark Grey */
+
+      color: #4c4c4c;
+      b {
+        color: #592ea9;
+      }
+    }
+    p {
+      max-width: 624px;
+
+      padding: 27px 0 70px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+      /* or 175% */
+
+      /* Medium grey */
+
+      color: #6d6e76;
+    }
+    button {
+      border: none;
+      padding: 16px 48px;
+      gap: 12px;
+      width: 204px;
+      height: 56px;
+      background: #ffd050;
+      color: #232536;
+    }
+  }
+}
+
+main {
+  padding: 150px 0 0 0;
+}
+.p {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  /* identical to box height, or 133% */
+
+  letter-spacing: -2px;
+
+  /* Black */
+
+  color: #232536;
+  padding-bottom: 96px;
+}
+
+.card-row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 64px;
+  .card-row-r {
+    h2 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px; 
+      /* identical to box height, or 125% */
+
+      letter-spacing: 3px;
+      text-transform: uppercase;
+
+      /* Purple */
+
+      color: #592ea9;
+    }
+    h1 {
+      font-family: "Sen";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 48px;
+      /* or 133% */
+
+      letter-spacing: -2px;
+
+      /* Black */
+
+      color: #232536;
+      padding: 20px 0 16px;
+      max-width: 673.39px;
+    }
+    p {
+      max-width: 696.96px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+      /* or 175% */
+
+      /* Medium grey */
+
+      color: #6d6e76;
+    }
+  }
+}
+
+
+@media (max-width:1000px) {
+  .card-row {
+    flex-direction: column;
+    img {
+      width: 100%;
+    }
+  }
+  .card-row * {
+    text-align: center;
+  }
+  .head {
+    flex-direction: column;
+    img {
+      width: 100%;
+    }
+  }
+  .head * {
+    text-align: center;
+  }
+}

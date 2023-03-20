@@ -1,0 +1,49 @@
+.bgc-io {
+  padding-bottom: 80px;
+  h1 {
+    font-family: "Sen";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    /* identical to box height, or 114% */
+
+    text-align: center;
+    letter-spacing: -2px;
+
+    /* Black */
+
+    color: #232536;
+  }
+  h4 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+
+    margin: 0 auto;
+    padding: 16px 0 32px;
+    /* Medium grey */
+
+    color: #6d6e76;
+    max-width: 515px;
+  }
+  p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    /* Black */
+
+    color: #232536;
+  }
+}

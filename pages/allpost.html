@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All posts</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/main.min.css" />
+    <link rel="stylesheet" href="../css/allposts.min.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container nav">
+          <div class="nav-l">
+            <img src="../images/logo.svg" alt="" />
+          </div>
+          <div class="nav-r">
+            <div class="menus">
+              <a href="../index.html">Home</a>
+              <a href="blog.html">Blog</a>
+              <a href="about.html">About Us</a>
+              <a href="register.html">Register</a>
+            </div>
+            <div class="hum" id="navbar-open" onclick="openNavbar()">
+              <img src="../images/hum.svg" alt="" />
+            </div>
+            <div id="navbar-responsive">
+              <div class="close">
+                <img onclick="closeNavbar()" src="../images/close.svg" alt="" />
+              </div>
+              <div class="m">
+                <a href="../index.html">Home</a>
+                <a href="blog.html">Blog</a>
+                <a href="about.html">About Us</a>
+                <a href="register.html">Register</a>
+              </div>
+              <div class="hj">
+                <a href="login.html">Log in</a>
+              </div>
+            </div>
+            <button>
+              <a href="login.html">Log in</a>
+            </button>
+          </div>
+        </div>
+      </nav>
+      <section>
+        <div class="container head">
+          <div class="head-l">
+            <h3>Featured Post</h3>
+            <h1>Step-by-step guide to choosing great font pairs</h1>
+            <h4>By <b>John Doe</b> | May 23, 2022</h4>
+            <p>
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat non proident.
+            </p>
+            <button>Read More ></button>
+          </div>
+          <div class="head-r">
+            <img
+              src="../images/man-in-white-dress-shirt-sitting-on-black-rolling-chair-while-facing-black-computer-set-and-smiling-840996.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <a href=""></a>
+    </header>
+    <main>
+      <section>
+        <div class="container">
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              id="search-btn"
+              class="form-control"
+              placeholder="Searching ..."
+              aria-label="Username"
+              aria-describedby="basic-addon1"
+            />
+          </div>
+        </div>
+        <div class="container">
+          <p class="p">All posts</p>
+        </div>
+      </section>
+      <section id="cards">
+        <div class="container cards-row"></div>
+      </section>
+    </main>
+    <footer>
+      <div class="container footer">
+        <div>
+          <p>Finstreet 118 2561 Fintown</p>
+          <p>Hello@finsweet.com 020 7993 2905</p>
+        </div>
+        <div class="imgs-1">
+          <img src="../images/Negative.svg" alt="" />
+          <img src="../images/Negative.svg" alt="" />
+          <img src="../images/Negative.svg" alt="" />
+          <img src="../images/Negative.svg" alt="" />
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.4/axios.min.js"
+      integrity="sha512-LUKzDoJKOLqnxGWWIBM4lzRBlxcva2ZTztO8bTcWPmDSpkErWx0bSP4pdsjNH8kiHAUPaT06UXcb+vOEZH+HpQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/const.js"></script>
+    <script src="../js/request.js"></script>
+    <script src="../js/nav.js"></script>
+    <script src="../js/js/all.js"></script>
+    <script src="../js/search.js"></script>
+    <script src="../js/blog.js"></script>
+  </body>
+</html>

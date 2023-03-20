@@ -1,0 +1,240 @@
+#head {
+  background-image: url(../../images/man-in-black-suit-wearing-eye-glasses-sitting-on-gray-sofa-using-macbook-3772622.png);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  .head {
+    background-image: url(../../images/bca.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    padding: 128px 0 192px 0;
+  }
+  h1 {
+    max-width: 803px;
+    padding: 24px 0;
+    font-family: "Sen";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -2px;
+    color: #ffffff;
+  }
+  h3 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #ffffff;
+    b {
+      font-size: 22px;
+    }
+  }
+  p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+    b {
+      color: #ffd050;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+    }
+  }
+  h4 {
+    max-width: 599px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 16px 0 48px;
+    color: #ffffff;
+  }
+  button {
+    display: flex;
+    padding: 16px 48px;
+    gap: 12px;
+    width: 204px;
+    height: 56px;
+    background: #ffd050;
+    border: none;
+    p {
+      font-family: "Sen";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 24px;
+      color: #232536;
+    }
+  }
+}
+
+.blog {
+  h1 {
+    font-family: "Sen";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -2px;
+    color: #000000;
+  }
+  padding-bottom: 64px;
+}
+
+.cards-blog {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #232536;
+  opacity: 0.7;
+}
+
+.card-title {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  /* or 143% */
+
+  letter-spacing: -1px;
+
+  /* Black */
+
+  color: #232536;
+}
+
+.date {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  /* Dark Grey */
+
+  color: #4c4c4c;
+  .name {
+    color: #592ea9;
+  }
+}
+.card {
+  width: 405px !important;
+  height: 606px !important;
+}
+.bl {
+  padding-top: 120px;
+  text-align: center;
+}
+
+.Catagory-cards {
+  display: flex;
+  gap: 32px;
+  .cards {
+    padding: 31px 32px;
+    .img-1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 48px;
+      height: 46.54px;
+      background: #fbf6ea;
+      border-radius: 10px;
+    }
+    h1 {
+      padding: 15px 0 4px;
+      font-family: "Sen";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 40px;
+      /* or 143% */
+
+      letter-spacing: -1px;
+
+      /* Black */
+
+      color: #232536;
+    }
+    p {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+      /* or 175% */
+
+      /* Medium grey */
+
+      color: #6d6e76;
+    }
+  }
+  .cards:hover {
+    transition: 0.5s;
+    background: #ffd050;
+  }
+}
+main {
+  padding-bottom: 70px;
+}
+
+@media (max-width: 1150px) {
+  #head {
+    background-image: url(null);
+    background-color: grey;
+    .head {
+      background-image: url(null);
+      padding-bottom: 100px;
+    }
+  }
+}
+@media (max-width: 1000px) {
+  .cards-blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+  }
+  .cards-blog * {
+    text-align: center;
+  }
+  .Catagory-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .Catagory-cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card {
+    width: 100% !important;
+  }
+}
+@media (max-width: 500px) {
+  .head{
+    h1 {
+      font-size: 35px !important;
+    }
+  }
+}

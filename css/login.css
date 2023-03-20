@@ -1,0 +1,41 @@
+.ps {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  /* identical to box height, or 133% */
+  text-align: center;
+  letter-spacing: -2px;
+  color: #232536;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+form button {
+  background: #ffd050;
+  width: 100%;
+  height: 64px;
+  border: 1px solid #ffd050;
+}
+form button p {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #232536;
+  text-align: center;
+}
+
+.containers {
+  max-width: 768px !important;
+  margin: 0 auto;
+}
+
+main {
+  padding: 68px 0 450px;
+}

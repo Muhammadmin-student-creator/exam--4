@@ -1,0 +1,93 @@
+.about-b {
+  display: flex;
+  justify-content: space-between;
+  gap: 54px;
+  padding: 83px 80px 100px;
+}
+.about-b h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  /* Black */
+  color: #232536;
+}
+.about-b h1 {
+  max-width: 481px;
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  /* or 143% */
+  letter-spacing: -1px;
+  /* Black */
+  color: #232536;
+}
+.about-b p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+  /* Medium grey */
+  color: #6d6e76;
+  max-width: 516px;
+}
+
+main {
+  padding: 50px 0 127px;
+}
+
+.s {
+  padding-top: 128px !important;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+.about img {
+  width: 681px;
+  height: 480px;
+}
+.about h1 {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  /* identical to box height, or 133% */
+  letter-spacing: -2px;
+  color: #232536;
+}
+.about h2 {
+  max-width: 519px;
+  /* Heading H4 */
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  /* or 133% */
+  /* Black */
+  padding: 16px 0;
+  color: #232536;
+}
+.about p {
+  max-width: 519px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+  /* Black */
+  color: #232536;
+}
