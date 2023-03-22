@@ -15,3 +15,12 @@ const requestImage = axios.create({
     Authorization: `Bearer ` + localStorage.getItem(TOKEN),
   },
 });
+
+const edit = axios.create({
+  baseURL: "https://blog-backend.up.railway.app/api/v1",
+  timeout: 10000,
+  headers: {
+    "Content-type": "multipart/form-data",
+    Authorization: `Bearer ` + localStorage.getItem(TOKEN),
+  },
+});

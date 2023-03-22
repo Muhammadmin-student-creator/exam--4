@@ -49,3 +49,32 @@ form {
   }
 }
 
+.img-23 {
+  img {
+    width: 547.29px !important;
+    height: 318px !important;
+  }
+}
+
+.post {
+  display: flex;
+  justify-content: space-between;
+  width: 100% ;
+  height: 318px !important;
+  gap: 20px ;
+  .card-row-l {
+    width: 100%;
+  }
+  .card-row-r   {
+    width: 100%;
+  }
+}
+
+.cards-my {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 40px !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+

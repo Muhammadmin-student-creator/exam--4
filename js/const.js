@@ -1,5 +1,5 @@
-// const IMAGE_URL =
-//   "https://portfolio-backend-production-872a.up.railway.app/upload/";
+const IMAGE_URL =
+  "https://portfolio-backend-production-872a.up.railway.app/upload/";
 
 const ENDPOINT = "https://blog-backend.up.railway.app/api/v1/";
 
